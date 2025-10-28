@@ -15,9 +15,9 @@ namespace Practice
             // Задание 2: работа с классом Пользователь
             User user1 = new User();
             user1.Id = 1;
-            user1.Name = "Иван";
-            user1.Email = "ivan@mail.ru";
-            user1.Age = 25;
+            user1.Name = "Валера";
+            user1.Email = "Valera@mail.ru";
+            user1.Age = 18;
 
             user1.PrintInfo();
 
@@ -68,4 +68,5 @@ namespace Practice
             return $"ID: {Id}, Имя: {Name}, Email: {Email}, Возраст: {Age}";
         }
     }
+
 }
